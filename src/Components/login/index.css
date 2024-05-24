@@ -7,3 +7,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.form-UserInput{
+    width: 450px;
+    background-color: rgb(37, 36, 36);
+}
+
+.websiteLogo{
+    width: auto;
+    height: 50px;
+}
