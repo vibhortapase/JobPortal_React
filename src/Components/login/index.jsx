@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import {useNavigate} from "react-router-dom";
-import Cookies from 'js-cookie';
+import { useNavigate } from "react-router-dom";
+import Cookies from "js-cookie";
 import "./index.css";
 
 const Login = () => {
@@ -36,11 +36,9 @@ const Login = () => {
     console.log(response);
 
     if (response.ok === true) {
-
       setValue({ ...allValues, showErrorMsg: false });
       Cookies.set("jswToken", fetchData.jwt_token);
       navigate("/");
-
     } else {
       setValue({
         ...allValues,
@@ -57,11 +55,11 @@ const Login = () => {
     setValue({ ...allValues, password: event.target.value });
   };
 
-  useEffect(()=> {
-    if(token !== undefined){
+  useEffect(() => {
+    if (token !== undefined) {
       navigate("/");
     }
-  })
+  });
 
   return (
     <div className="my-cont bg-black">
