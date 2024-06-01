@@ -33,8 +33,6 @@ const Login = () => {
     let response = await fetch(url, options);
     let fetchData = await response.json();
 
-    console.log(response);
-
     if (response.ok === true) {
       setValue({ ...allValues, showErrorMsg: false });
       Cookies.set("jswToken", fetchData.jwt_token);

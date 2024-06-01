@@ -1,0 +1,54 @@
+.job-cont{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:self-start;
+}
+.job-filter-section{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    width: 27%;
+    height: 100%;
+    margin-left: 50px;
+}
+.all-job-display-section{
+    /* border: 1px solid green; */
+    margin-top: 30px;
+    width: 60%;
+    height:100%;
+}
+.userSearch{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:transparent;
+    color: white;
+    width: 50%;
+    height: 40px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    padding: 10px;
+    /* position: absolute; */
+}
+.userSearch:focus{
+    border: 1px solid blue;
+    background-color: transparent;
+    color: white;
+}
+input::placeholder {
+    opacity: 1;
+    color: white;
+}   
+.searchBtn{
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 0 10px 10px 0 ;
+    position: relative;
+    left: -35px;
+}
