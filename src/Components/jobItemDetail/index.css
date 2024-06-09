@@ -1,0 +1,80 @@
+.jobDetailPage{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.jobDetailCard{
+    width: 65%;
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+}
+.my-const{
+    display: flex;
+}
+.card-company-logo{    
+    height: 75px;
+    width: 75px;
+}
+.compName-rating-cont{
+    margin-left: 15px;
+}
+.ratingLogo{
+    color: gold;
+    margin-bottom: 2px;
+}
+.location-empType-package-cont{
+    display: flex;
+    justify-content:space-between;
+}
+.hr{
+    margin-top: -2px;
+    color: white;
+}
+.icons{
+    color: white;
+    height: 30px;
+}
+.skills-cont{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-left: -30px;
+}
+.skillsList{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+.skillsIMG{
+    height: 35px;
+    margin-right: 10px;
+}
+.lifeCompany-cont{
+    display: flex;
+}
+.lifeCompany-img{
+    width: 1500px;
+    height: 200px;
+}
+.similarJob-Cont{
+    margin-left: -30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.similarJob-List{
+    text-align: unset;
+    height: fit-content;
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+}
