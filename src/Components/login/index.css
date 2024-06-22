@@ -1,7 +1,8 @@
 .my-cont{
     height: 100vh;
     width: 100vw;
-    padding: 10px;
+    background-color: black;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,11 +10,12 @@
 }
 
 .form-UserInput{
-    width: 450px;
+    width: 30vmax;
     background-color: rgb(37, 36, 36);
 }
 
 .websiteLogo{
     width: auto;
-    height: 50px;
+    height: 5vmax;
 }
+

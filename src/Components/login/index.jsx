@@ -38,11 +38,8 @@ const Login = () => {
       Cookies.set("jswToken", fetchData.jwt_token);
       navigate("/");
     } else {
-      setValue({
-        ...allValues,
-        showErrorMsg: true,
-        errorMsg: fetchData.error_msg,
-      });
+      setValue({...allValues, showErrorMsg: true, errorMsg: fetchData.error_msg,
+  });
     }
   };
 
@@ -60,11 +57,8 @@ const Login = () => {
   });
 
   return (
-    <div className="my-cont bg-black">
-      <form
-        onSubmit={onSubmitUserDetails}
-        className=" form-UserInput p-5 rounded text-white"
-      >
+    <div className="my-cont">
+      <form onSubmit={onSubmitUserDetails} className = "form-UserInput p-5 rounded text-white">
         <div className="text-center">
           <img
             src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
