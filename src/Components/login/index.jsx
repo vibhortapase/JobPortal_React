@@ -11,7 +11,7 @@ const Login = () => {
     errorMsg: "",
   });
 
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const token = Cookies.get("jswToken");
 
